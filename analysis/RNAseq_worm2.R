@@ -7,8 +7,8 @@
 setwd("~/worm_development")
 
 # install packages
-BiocManager::install("tximportData")
-install.packages("umap")
+#BiocManager::install("tximportData")
+#install.packages("umap")
 
 # load packages
 #library(tximportData)
@@ -86,6 +86,7 @@ umap_df$segment <- samples_ordered$segment
 # Plot UMAP
 ggplot(umap_df, aes(x = V1, y = V2, color = segment)) +
   geom_point(size = 3) +
-  theme_classic() +
+  theme_classic(base_size = 16) +
   labs(x = "UMAP1", y = "UMAP2")
 
+ggsave("~/worm_development/figures/umap_worm2.png")

@@ -1,0 +1,8 @@
+sample	segment	worm
+SRR28368401	diakinesis	worm2
+SRR28368405	-2_oocyte	worm2
+SRR28368402	-1_oocyte	worm2
+SRR28368403	pachytene	worm2
+SRR28368404	diplotene	worm2
+SRR28368407	mitotic	worm2
+SRR28368413	zygote	worm2

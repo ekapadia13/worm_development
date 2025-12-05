@@ -4,6 +4,7 @@ INPUT_DIR="/Users/cmdb/worm_development/data/processeddata/trim-galore"
 OUTPUT_DIR="/Users/cmdb/worm_development/data/processeddata/salmon_quant"
 
 salmon quant -i "$INDEX" -l A -1 ${INPUT_DIR}/SRR28368401_1_val_1.fq -2 ${INPUT_DIR}/SRR28368401_2_val_2.fq --validateMappings -o "$OUTPUT_DIR/SRR28368401"
+salmon quant -i "$INDEX" -l A -1 ${INPUT_DIR}/SRR28368402_1_val_1.fq -2 ${INPUT_DIR}/SRR28368402_2_val_2.fq --validateMappings -o "$OUTPUT_DIR/SRR28368402"
 salmon quant -i "$INDEX" -l A -1 ${INPUT_DIR}/SRR28368403_1_val_1.fq -2 ${INPUT_DIR}/SRR28368403_2_val_2.fq --validateMappings -o "$OUTPUT_DIR/SRR28368403"
 salmon quant -i "$INDEX" -l A -1 ${INPUT_DIR}/SRR28368404_1_val_1.fq -2 ${INPUT_DIR}/SRR28368404_2_val_2.fq --validateMappings -o "$OUTPUT_DIR/SRR28368404"
 salmon quant -i "$INDEX" -l A -1 ${INPUT_DIR}/SRR28368405_1_val_1.fq -2 ${INPUT_DIR}/SRR28368405_2_val_2.fq --validateMappings -o "$OUTPUT_DIR/SRR28368405"

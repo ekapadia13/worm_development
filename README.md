@@ -16,7 +16,10 @@ Transcriptome: WBcel235 from [NCBI](https://www.ncbi.nlm.nih.gov/datasets/genome
 Software:
 1. [Quality filtering and cutting adapters with trim-galore version 0.6.10](https://github.com/FelixKrueger/TrimGalore)
 2. [Alignment done with Salmon version 1.10.3](https://salmon.readthedocs.io/en/latest/)
-3. [Quality control with QoRTs version 1.3.6](https://hartleys.github.io/QoRTs/)
+3. [DE analysis with R- DEseq version 1.44.0](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+4. UMAP and clustering
+- [R- umap version 0.2.10.0](https://cran.r-project.org/web/packages/umap/vignettes/umap.html)
+- [R- ggplot version 3.5.2](https://ggplot2.tidyverse.org/)
 4. [RNA seq analysis with monocle3](https://github.com/cole-trapnell-lab/monocle3)
 5. [GO term analysis with ClusterProfiler version 4.16.0](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
 
@@ -24,3 +27,6 @@ Software:
 1. Create a UMAP that we expect will cluster based on the different cell types expressed along the gonad developmental axis.
 2. Perform GO term analysis to determine the roles of the genes in each developmental segment
 3. Isolate a group of genes of interest and create a heatmap for each one that shows its differential expression across the developmental axis.
+
+#### Presentation
+[Differential Expression of Genes during Oogenesis in C. elegans](https://docs.google.com/presentation/d/1eKyZTTec71As3WFb2Lsg240PBdxN5jTtKbHZBuMuKS0/edit?slide=id.p#slide=id.p)
